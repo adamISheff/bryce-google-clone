@@ -7,3 +7,29 @@ a {
 html{
     background-color: #202124;
 }
+
+div.top-links {
+    padding: 6px;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div.top-links-right{
+    flex-grow: 2;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+div.top-links-left{
+    flex-grow: 2;
+}
+a.about {
+    margin-left: 15px;
+    margin-right: 5px;
+    padding: 5px;
+}
+a.store {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
