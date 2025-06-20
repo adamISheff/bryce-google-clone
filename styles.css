@@ -1,15 +1,15 @@
 div.navbar {
     display: flex;
-    background-color: aqua;
     justify-content: space-between;
+    align-items: center;
 }
 
 div.navbar-left {
-    background-color: rgb(142, 98, 98);
 }
 
 div.navbar-right {
-    background-color: brown;
+    display: flex;
+    align-items: center;
 }
 
 div.main {
@@ -45,4 +45,22 @@ div.parent {
 }
 html {
     background-color: #202124;
+}
+a.about{
+    text-decoration: none;
+    color:white
+}
+
+a.store{
+    text-decoration: none;
+    color:white
+}
+a.gmail{
+    text-decoration: none;
+    color:white
+}
+
+a.images{
+    text-decoration: none;
+    color:white
 }
