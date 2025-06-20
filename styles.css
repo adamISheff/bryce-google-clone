@@ -1,23 +1,48 @@
 div.navbar {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
 }
 
 div.navbar-left {
+    background-color: rgb(142, 98, 98);
 }
 
 div.navbar-right {
+    background-color: brown;
 }
 
 div.main {
+    background-color: gray;
+    width: 100%;
+    height: 97vh;
 }
 
 div.footer {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 div.footer-left {
+    background-color: red;
 }
 
 div.footer-middle {
+    background-color: chocolate;
 }
 
 div.footer-right {
+    background-color: crimson;
+}
+
+div.parent {
+    display: flex;
+    flex-direction: column;
+}
+html {
+    background-color: #202124;
 }
